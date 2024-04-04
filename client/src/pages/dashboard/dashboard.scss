@@ -1,0 +1,15 @@
+.dashboard-container{
+
+    height: 100vh;
+        display : flex;
+        flex-direction: row;
+
+
+        .sidebar-con{
+width: 20%;
+        }
+
+        .main-cont{
+width: 80%;
+        }
+}

@@ -1,14 +1,26 @@
 import React from 'react'
+import Sidebar from '../../components/Sidebar';
+import Navbar from '../../components/Navbar';
+import "./dashboard.scss"
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className='dashboard-container'>
       {/* Navbar */}
-      <div></div>
+      <div className='sidebar-con'>
+        <Sidebar />
+      </div>
       {/* Main Div */}
-      <div>
-        <div></div>
-        <div></div>
+      <div className='main-cont'>
+        <div>
+          <Navbar />
+        </div>
+        <div>
+          <div>hi bro</div>
+          <div>hi bro</div>
+          <div>hi bro</div>
+          <div>hi bro</div>
+        </div>
       </div>
     </div>
   );
