@@ -1,0 +1,12 @@
+.main-container{
+background: #d86eca;
+background: conic-gradient(from 315deg, #e97fda, #B6B1FF);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+}
