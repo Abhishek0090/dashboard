@@ -1,6 +1,10 @@
 .main-container{
-background: #d86eca;
-background: conic-gradient(from 315deg, #e97fda, #B6B1FF);
+// background: #d86eca;
+// background: conic-gradient(from 315deg, #e97fda, #B6B1FF);
+background: url("https://images.unsplash.com/photo-1464983953574-0892a716854b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+animation: slide 20s linear infinite; /* Adjust the duration and timing function as needed */
+
+
 
     .container {
         display: flex;
@@ -8,5 +12,14 @@ background: conic-gradient(from 315deg, #e97fda, #B6B1FF);
         justify-content: center;
         flex-direction: column;
         height: 100vh;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
     }
 }

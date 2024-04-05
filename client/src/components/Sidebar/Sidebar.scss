@@ -1,4 +1,32 @@
 .sidebar-container{
     height: 100vh;
-    width: 50rem;
+    background-color: black;
+    color: white;
+
+    .inner-side-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        // align-items: center;
+
+        .sidebar-content{
+                font-size: 20px;
+                font-weight: bold;
+                padding: 20px;
+                cursor: pointer;
+                transition: all ease-in-out 0.2s;
+                border-top-left-radius:20px ;
+                border-top-right-radius : 0px;
+                border-bottom-left-radius : 0px;
+                border-bottom-right-radius : 20px;
+                letter-spacing: 2px;
+
+                &:hover{
+                    background-color: white;
+                    color: black;
+
+                }
+        }
+    }
 }
